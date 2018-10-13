@@ -12,8 +12,11 @@ font{
     margin-top: 100px;
     color:white;
     margin-left: 300px;
+    transition: 0.3s
 /*    background-color: black;*/
-    
+}
+font:hover{
+    text-shadow: 2px 2px 3px grey;
 }
 
 h2{
@@ -44,5 +47,8 @@ x{
 }
 div2{
     background-blend-mode: color;
-   
+   transition: 0.3s;
+}
+div2:hover{
+    color: white;
 }
